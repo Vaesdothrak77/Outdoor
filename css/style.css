@@ -847,10 +847,6 @@ label {
    }
 }
 @media (max-width: 400px) {
-   .slide {
-      width: 15vw;
-      height: 15vh;
-   }
    .footer__body {
       gap: 5px;
    }
