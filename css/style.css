@@ -646,6 +646,9 @@ label {
    max-width: 24px;
    height: 24px;
 }
+.form__item {
+   position: relative;
+}
 .form__input {
    margin-top: 20px;
    padding: 15px;
@@ -656,9 +659,22 @@ label {
    border-radius: 8px;
 
    width: 450px;
-}
-.form-btn {
 
+}
+.btn-form {
+   position: absolute;
+   top: 23px;
+   right: 2px;
+   z-index: 500;
+   background-color: #575445;
+   border-radius: 10px;
+   cursor: pointer;
+   padding: 10px;
+
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+   color: #FFFFFF;
 }
 
 
