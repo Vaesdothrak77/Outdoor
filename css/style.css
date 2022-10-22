@@ -831,8 +831,8 @@ label {
 
 @media (max-width: 550px) {
    .slide {
-      width: 20vw;
-      height: 20vh;
+      width: 30vw;
+      height: 30vh;
    }
    .menu__column-list:not(:last-child) {
       margin-top: 5px;
