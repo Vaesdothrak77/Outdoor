@@ -30,6 +30,10 @@ label {
    font-size: 13px;
    line-height: 20px;
    color: #222222;
+   transition: all .3s ease;
+}
+.burger__link:hover {
+   transform: scale(115%);
 }
 .header__btn {
    display: flex;
@@ -50,9 +54,13 @@ label {
    border: none;
    background-color: #575445;
    border-radius: 10px;
+   transition: all .3s ease;
 
    display: inline-flex;
    gap: 10px;
+}
+.header-btn:hover {
+   transform: scale(115%);
 }
 .basket__btn {
 }
@@ -455,6 +463,10 @@ label {
    text-align: center;
    color: #575445;
 
+   transition: all .3s ease;
+}
+.products__btn:hover {
+   transform: scale(115%);
 }
 
    /* ------Section Navigating------- */
@@ -625,6 +637,10 @@ label {
    font-size: clamp(0.625rem, 0.535rem + 0.45vw, 0.875rem);
    line-height: clamp(0.625rem, 0.4rem + 1.12vw, 1.25rem);
    color: #FFFFFF;
+   transition: all .3s ease;
+}
+.menu__column-list:hover {
+   transform: scale(115%);
 }
 .column__text {
 }
@@ -645,6 +661,10 @@ label {
 .social__item {
    max-width: 24px;
    height: 24px;
+   transition: all .3s linear;
+}
+.social__item:hover {
+   transform: scale(125%);
 }
 .form__item {
    position: relative;
@@ -831,8 +851,8 @@ label {
 
 @media (max-width: 550px) {
    .slide {
-      width: 30vw;
-      height: 30vh;
+      width: 20vw;
+      height: 20vh;
    }
    .menu__column-list:not(:last-child) {
       margin-top: 5px;
@@ -847,6 +867,10 @@ label {
    }
 }
 @media (max-width: 400px) {
+   .slide {
+      width: 15vw;
+      height: 15vh;
+   }
    .footer__body {
       gap: 5px;
    }
